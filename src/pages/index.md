@@ -16,6 +16,8 @@ tags:
 
 #### If you got into web development in the past couple years, you might quite possibly have never heard about [Meteor](https://www.meteor.com/?source=10yearsmeteor).
 
+<Person author={true} name="Sacha Greif" url="https://twitter.com/SachaGreif">I co-wrote [Discover Meteor](http://discovermeteor.com/), the leading Meteor reference e-book at the time, and launched many Meteor projects. Since then I created the [State of JavaScript](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) developer surveys. Our third survey, the [State of GraphQL](https://stateofgraphql.com/?source=10yearsofmeteor), is now open. [Go take it](https://stateofgraphql.com/?source=10yearsofmeteor) if you use GraphQL]!</Person>
+
 But when it first came out in 2012 (before React or Vue even existed!) it was the hottest thing around for a while. Not only that, to this day Meteor still does many incredible things that the rest of the ecosystem has yet to catch up with.
 
 And what's more, even if you've never used Meteor I'm willing to bet you've used software that was influenced by it, one way or another. So read on to learn more about Meteor's early rise, why it may have burned too bright, and the lasting impact it had on modern JavaScript development.
@@ -107,6 +109,8 @@ Right from the start, my goal had been to find a framework that would let me lau
 
 But what's interesting is that although I had intended for Telescope to be a Hacker News clone, people had started using it for all kinds of different community-based apps, tweaking the templates to match their use case. This was such a cool direction that I decided to pivot the project to become a full-fledged general purpose web framework, and thus [Vulcan.js](http://vulcanjs.org/) was born.
 
+<Image name="Vulcan.js" url="http://vulcanjs.org">Vulcan.js: a valiant attempt at creating the fabled "Rails for JavaScript".</Image>
+
 Looking back, building Vulcan on top of Meteor instead of starting from scratch was not a good idea to say the least. I was hamstrung by all the same issues that Meteor was plagued with, without any of Meteor's advantages since I had eschewed the traditional Meteor building blocks in favor of React & co.
 
 I had made the bet that the current Meteor community would see Vulcan as its escape raft towards the larger JavaScript ecosystem, a way to port their pure-Meteor apps to a hybrid Meteor-and-React model. But by then, the people who wanted to abandon Meteor had already long done so, and the remaining community of die-hards used Meteor because they actually liked it.
@@ -172,6 +176,8 @@ Don't get me wrong, I enjoyed pushing the boundaries of the browser and redefini
 
 I can only hope that in the process we manage to preserve just a tiny bit of that original Meteor magic and simplicity. Even after all this time, nothing has really come close.
 
+
+#### Links & Stuff (to be removed)
 
 https://nolanlawson.com/2022/05/21/the-balance-has-shifted-away-from-spas/
 

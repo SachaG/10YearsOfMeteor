@@ -1,6 +1,6 @@
 ---
 const { name, url } = Astro.props
-const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
+const img = Astro.props.name.replaceAll('.', '').replaceAll(' ', '_').toLowerCase();
 
 ---
 

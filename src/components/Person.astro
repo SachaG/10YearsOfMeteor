@@ -1,10 +1,10 @@
 ---
-const { name, url } = Astro.props;
+const { name, url, author } = Astro.props;
 const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
 ---
 
 <div class="person">
-  <h4 class="heading">Meteor People</h4>
+  <h4 class="heading">{author ? <span>About the Author</span>: <span>Meteor People</span>}</h4>
   <a class="photo" href={url}>
     <img src={`/people/${img}.jpg`} alt={name} />
   </a>
@@ -26,11 +26,12 @@ const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
     margin-right: -80px;
   }
 
-  .heading{
+  .heading {
     text-transform: uppercase;
     margin: 0;
     font-size: 22px;
   }
+
   .name {
     margin: 0 0 var(--spacing) 0;
     background: #f9d703;
@@ -38,6 +39,7 @@ const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
     text-transform: uppercase;
     padding: 3px 8px;
     display: inline-block;
+
     a {
       text-decoration: none;
     }
@@ -59,6 +61,7 @@ const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
     // aspect-ratio: 1/1;
     // overflow: hidden;
   }
+
   .bio {
     background: white;
     padding: var(--spacing);

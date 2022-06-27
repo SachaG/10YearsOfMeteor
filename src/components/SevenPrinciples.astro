@@ -1,0 +1,52 @@
+---
+
+---
+
+<section class="seven-principles">
+  <slot />
+</section>
+
+<style lang="scss">
+  section {
+    background: white;
+    padding: var(--spacing);
+    @media screen and (min-width: 900px) {
+      padding: var(--doubleSpacing);
+      margin-left: calc(var(--doubleSpacing) * -1);
+      margin-right: calc(var(--doubleSpacing) * -1);
+    }
+  }
+
+  blockquote {}
+
+  .seven-principles {
+    :global(h2) {
+      font-size: var(--step-2);
+      font-family: var(--altFontFamily);
+      margin-left: 0;
+      margin-top: 0;
+    }
+
+    :global(h4) {
+      font-size: var(--step--1);
+      font-family: var(--altFontFamily);
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    :global(blockquote) {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      font-size: var(--step--1);
+      font-family: var(--altFontFamily);
+      background: var(--altBackgroundColor);
+      padding: var(--spacing);
+
+      :global(p) {
+        margin: 0;
+      }
+    }
+
+  }
+</style>

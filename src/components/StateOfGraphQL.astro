@@ -1,0 +1,33 @@
+---
+---
+
+<section>
+  <img src="/stateofgraphql2022.png" alt="State of GraphQL 2022 developer survey" />
+  <div>
+    <slot />
+  </div>
+</section>
+
+<style lang="scss">
+  section {
+    padding: var(--halfSpacing) var(--doubleSpacing) var(--halfSpacing) var(--halfSpacing);
+    background: #454b58;
+    color: #e8ecf5;
+    align-items: center;
+    margin-left: calc(-1 * var(--quadrupleSpacing));
+    margin-right: calc(-1 * var(--quadrupleSpacing));
+    font-size: var(--step--1);
+    gap: var(--halfSpacing);
+    :global(a){
+      color: #feb8e6;
+    }
+    
+		@media screen and (min-width: 900px) {
+      display: flex;
+
+		}
+  }
+  img {
+    width: 300px;
+  }
+</style>

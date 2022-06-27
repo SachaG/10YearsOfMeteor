@@ -18,11 +18,15 @@
 </html>
 
 <style lang="scss" is:global>
+	@import '../stylesheets/utopia.css';
+
 	:root {
 		--halfSpacing: 10px;
 		--spacing: 20px;
 		--doubleSpacing: 40px;
+		--quadrupleSpacing: 80px;
 		--backgroundColor: #ececf3;
+		--altBackgroundColor: #f9d703;
 		--borderColor: #c5c5cb;
 		--textColor: #242421;
 		--linkColor: #1c06e0;
@@ -31,14 +35,17 @@
 		--altFontFamily: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 	}
 
+
 	html,
 	body {
 		font-family: var(--baseFontFamily);
 		margin: 0;
-		font-size: 22px;
+		// font-size: 22px;
+		font-size: var(--step-0);
 		line-height: 1.65;
 		background: var(--backgroundColor);
 		color: var(--textColor);
+		padding: var(--halfSpacing);
 	}
 
 	main {
@@ -60,14 +67,17 @@
 	}
 
 	h2 {
-		margin-left: -80px;
-		font-size: 80px;
+		font-size: var(--step-5);
 		font-family: var(--altFontFamily);
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.5);
+		text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.5);
+		line-height: 1.3;
+		@media screen and (min-width: 900px) {
+			margin-left: -80px;
+		}
 	}
 
 	h4 {
-		font-size: 30px;
+		font-size: var(--step-2);
 		font-weight: normal;
 	}
 
@@ -84,5 +94,17 @@
 		font-style: italic;
 		border-left: 10px solid var(--borderColor);
 		padding-left: var(--spacing);
+		@media screen and (max-width: 320px) {
+			margin-left: 0;
+		}
+	}
+
+	hr {
+		margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+		background: none;
+		border: 1px solid var(--borderColor);
 	}
 </style>

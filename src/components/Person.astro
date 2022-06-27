@@ -1,0 +1,66 @@
+---
+const { name, url } = Astro.props;
+const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
+---
+
+<div class="person">
+  <h4 class="heading">Meteor People</h4>
+  <a class="photo" href={url}>
+    <img src={`/people/${img}.jpg`} alt={name} />
+  </a>
+  <h3 class="name"><a href={url}>{name}</a></h3>
+  <div class="bio">
+    <slot />
+  </div>
+</div>
+
+<style lang="scss">
+  .person {
+    // border: 1px solid var(--borderColor);
+    // padding: var(--spacing);
+    max-width: 250px;
+    float: right;
+    margin: 0 0 var(--doubleSpacing) var(--doubleSpacing);
+    border-radius: 3px;
+    font-size: 18px;
+    margin-right: -80px;
+  }
+
+  .heading{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 22px;
+  }
+  .name {
+    margin: 0 0 var(--spacing) 0;
+    background: #f9d703;
+    font-family: var(--altFontFamily);
+    text-transform: uppercase;
+    padding: 3px 8px;
+    display: inline-block;
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .photo {
+    display: block;
+    width: 160px;
+    // background: var(--textColor);
+    padding: var(--halfSpacing);
+    // border-radius: 100%;
+    // overflow: hidden;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    // border-radius: 100%;
+    // aspect-ratio: 1/1;
+    // overflow: hidden;
+  }
+  .bio {
+    background: white;
+    padding: var(--spacing);
+  }
+</style>

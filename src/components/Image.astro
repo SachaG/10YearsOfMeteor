@@ -1,0 +1,29 @@
+---
+const { name, url } = Astro.props
+const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
+
+---
+
+<div class="image">
+  <a href={url}><img src={`/images/${img}.png`} alt={name} /></a>
+  <div class="legend">
+    <slot />
+  </div>
+</div>
+
+
+<style lang="scss">
+  .image {}
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .legend {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -10px;
+  }
+</style>

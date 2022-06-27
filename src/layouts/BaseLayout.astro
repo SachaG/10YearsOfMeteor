@@ -1,0 +1,88 @@
+---
+---
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+
+<body>
+	<main>
+		<slot />
+	</main>
+</body>
+
+</html>
+
+<style lang="scss" is:global>
+	:root {
+		--halfSpacing: 10px;
+		--spacing: 20px;
+		--doubleSpacing: 40px;
+		--backgroundColor: #ececf3;
+		--borderColor: #c5c5cb;
+		--textColor: #242421;
+		--linkColor: #1c06e0;
+		--visitedColor: #606058;
+		--baseFontFamily: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+		--altFontFamily: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+	}
+
+	html,
+	body {
+		font-family: var(--baseFontFamily);
+		margin: 0;
+		font-size: 22px;
+		line-height: 1.65;
+		background: var(--backgroundColor);
+		color: var(--textColor);
+	}
+
+	main {
+		max-width: 760px;
+		margin: 0 auto;
+	}
+
+	a {
+		color: var(--textColor);
+		font-weight: 600;
+
+		&:visited {
+			color: var(--visitedColor);
+		}
+
+		&:hover {
+			color: var(--linkColor);
+		}
+	}
+
+	h2 {
+		margin-left: -80px;
+		font-size: 80px;
+		font-family: var(--altFontFamily);
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.5);
+	}
+
+	h4 {
+		font-size: 30px;
+		font-weight: normal;
+	}
+
+	h5 {
+		// background: #f7f1cd;
+		// color: #38362b;
+		padding: var(--spacing);
+		font-weight: normal;
+		font-style: italic;
+		border: 1px solid var(--borderColor);
+	}
+
+	blockquote {
+		font-style: italic;
+		border-left: 10px solid var(--borderColor);
+		padding-left: var(--spacing);
+	}
+</style>

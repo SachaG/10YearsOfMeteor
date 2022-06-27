@@ -24,7 +24,7 @@ tags:
 
 #### If you only got into web development in the past couple years, you might quite possibly have never heard about [Meteor](https://www.meteor.com/?source=10yearsmeteor).
 
-<Person author={true} name="Sacha Greif" url="https://twitter.com/SachaGreif">I co-wrote [Discover Meteor](http://discovermeteor.com/), the leading Meteor e-book at the time. Since then I created the [State of JavaScript](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) developer surveys. Our third survey, the [State of GraphQL](https://stateofgraphql.com/?source=10yearsofmeteor), is now open.</Person>
+<Person author={true} name="Sacha Greif" url="https://twitter.com/SachaGreif">I co-wrote [Discover Meteor](http://discovermeteor.com/), the leading Meteor ebook at the time. Since then I created the [State of JavaScript](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/) developer surveys. Our third survey, the [State of GraphQL](https://stateofgraphql.com/?source=10yearsofmeteor), is now open.</Person>
 
 But when it first came out in 2012 (before React or Vue even existed!) it was the hottest thing around for a while. Not only that, to this day Meteor still does many incredible things that the rest of the ecosystem has yet to catch up with.
 
@@ -38,7 +38,7 @@ Take yourself back to 2012. It's the aftermath of the financial crisis, but Bara
 
 Deep in Silicon Valley, a team of brilliant engineers currently enrolled in [YCombinator](https://www.ycombinator.com/) has a realization: building web apps is too damn hard!
 
-Our of this realization is born Meteor: a unified architecture on top of Node.js that bundles client, server, and database all in one neat little package that you can run (or even deploy for free!) with a single command.
+Out of this realization is born Meteor: a unified architecture on top of Node.js that bundles client, server, and database all in one neat little package that you can run (or even deploy for free!) with a single command.
 
 What's more, it was all reactive and in real-time! Can you imagine never having to write a `fetch()` or worrying about updating your client data cache? And all that using the same familiar MongoDB API syntax both on the server and client!
 
@@ -62,7 +62,7 @@ I went through Michael Hartl's [Rails Tutorial](https://www.railstutorial.org/) 
 
 On the other hand, something that _did_ click was jQuery. It was JavaScript, which was a "normal-looking" programming language compared to Ruby, but with all the weird `DoSomethingWithTheDOM()` parts massaged into a sensible API.
 
-The first project I build with jQuery was a little tool called [Patternify](http://www.patternify.com/), which still exists to this day! I had a ton of fun, but at some point I started being frustrated once more: playing around in the browser was fine, but to achieve anything _big_ you needed to involve a server and a database at some point.
+The first project I built with jQuery was a little tool called [Patternify](http://www.patternify.com/), which still exists to this day! I had a ton of fun, but at some point I started being frustrated once more: playing around in the browser was fine, but to achieve anything _big_ you needed to involve a server and a database at some point.
 
 <Image name="Patternify" url="http://patternify.com/">My first client-side only web app: a pixel pattern drawing app. </Image>
 
@@ -83,7 +83,7 @@ was born.
 
 Throughout this whole process I got to know the other members of the budding Meteor community, one of which was [Tom Coleman](https://twitter.com/tmeasday), creator of Meteor's first package manager (Meteor launched without any kind of first-party package manager and only supported regular npm packages much later, which seems hard to imagine today).
 
-<Person name="Tom Coleman" url="https://twitter.com/tmeasday">Tom founded development agency Percolate Studio with longtime collaborators [Dominic Nguyen](https://twitter.com/domyen) and [Zoltan Olah](https://twitter.com/zqzoltan). Later, the company was acquired by Meteor Development Group, and after that the trio went to to found [Chromatic](https://www.chromatic.com/) and maintain [Storybook](https://storybook.js.org/), the popular UI testing tool.</Person>
+<Person name="Tom Coleman" url="https://twitter.com/tmeasday">Tom founded development agency Percolate Studio with longtime collaborators [Dominic Nguyen](https://twitter.com/domyen) and [Zoltan Olah](https://twitter.com/zqzoltan). Later, the company was acquired by Meteor Development Group, and after that the trio went on to found [Chromatic](https://www.chromatic.com/) and maintain [Storybook](https://storybook.js.org/), the popular UI testing tool.</Person>
 
 I was fresh off writing a [somewhat successful design e-book](https://v3.sachagreif.com/ebook/) so I approached Tom with a proposal: we'd combine his deep knowledge of Meteor and my design and marketing skills to write a Meteor tutorial book and establish ourselves as the de facto way to learn the framework just as it was taking off.
 
@@ -99,7 +99,7 @@ At first, it seemed like everything was great in Meteor land. Tom eventually [we
 
 But as the rest of the JavaScript ecosystem kept evolving (this is around the time React was gaining traction), many voices inside the Meteor community started questioning Meteor's idiosyncratic approach.
 
-<Person name="Arunoda Susiripala" url="https://twitter.com/arunoda">Arunoda created libraries to address many under-served aspects of early Meteor days including routing, server-side rendering, deployment, and performance monitoring. He went to on create [Storybook](https://storybook.js.org/), and work for [Vercel](https://vercel.com/) before creating gamedev company [GDi4K](https://www.gdi4k.com/).</Person>
+<Person name="Arunoda Susiripala" url="https://twitter.com/arunoda">Arunoda created libraries to address many under-served aspects of early Meteor days including routing, server-side rendering, deployment, and performance monitoring. He went on to create [Storybook](https://storybook.js.org/), and work for [Vercel](https://vercel.com/) before creating gamedev company [GDi4K](https://www.gdi4k.com/).</Person>
 
 It soon became clear that the community was splitting into two camps: those who appreciated Meteor's clear value proposition of simplifying web development by providing an all-in-one environment, and those who wanted more openness towards the npm ecosystem to avoid being left behind by the rest of the webdev community.
 
@@ -126,7 +126,7 @@ It's since become apparent that you often _do_ need to send HTML over the networ
 
 #### Verdict: 👍
 
-It's now become commonplace to reuse components on both the server and client but that wasn't the case 10 years ago. And to this day Meteor still handles many aspect of server/client code sharing better than most other frameworks.
+It's now become commonplace to reuse components on both the server and client but that wasn't the case 10 years ago. And to this day Meteor still handles many aspects of server/client code sharing better than most other frameworks.
 
 
 > **3\. Database Everywhere**. Use the same transparent API to access your database from the client or the server.
@@ -191,7 +191,7 @@ I had made the bet that the current Meteor community would see Vulcan as its esc
 
 Then again, there was no way I could've built something like Vulcan from scratch without standing on Meteor's shoulders, so maybe it had to be this way? And despite its relative obscurity, Vulcan has been used by others to [build startups](https://letter.so/), was used at a time by popular community [LessWrong](https://www.lesswrong.com/), and has been used by myself to build multiple sites, including [Sidebar](https://sidebar.io/) (a design newsletter with over 80,000 subscribers) and an AirBnB-like apartment rental platform.
 
-Today, thanks to the efforts of [Eric Burel](https://twitter.com/ericbureltech), the new version of Vulcan runs on [Next.js](https://vulcan-next.vercel.app/). We're trying to take the philosophy of Meteor, along with everything we learned in the past 10 years, and port it to the modern JavaScript ecosystem, similar to something like [RedwoodJS](https://redwoodjs.com/). The amount of work involved is daunting, and makes me all the more admirative of the original Meteor team, whodidn't have React, Next.js, or GraphQL to leverage.
+Today, thanks to the efforts of [Eric Burel](https://twitter.com/ericbureltech), the new version of Vulcan runs on [Next.js](https://vulcan-next.vercel.app/). We're trying to take the philosophy of Meteor, along with everything we learned in the past 10 years, and port it to the modern JavaScript ecosystem, similar to something like [RedwoodJS](https://redwoodjs.com/). The amount of work involved is daunting, and makes me all the more admirative of the original Meteor team, who didn't have React, Next.js, or GraphQL to leverage.
 
 ## Meteor Today
 
@@ -213,7 +213,7 @@ At this point you might be forgiven for thinking that Meteor burned too bright a
 
 <Person name="Evan You" url="https://twitter.com/youyuxi">Probably the most famous Meteor alumni, Evan You worked on Meteor's own Blaze UI framework before going on to revolutionize the front-end space with [Vue.js](https://vuejs.org/).</Person>
 
-One of the new front-end frameworks that quickly outgrew Meteor's own popularity was [Vue](https://vuejs.org/), created by Evan You. And where did Evan work at before creating Vue? You guessed it, MDG.
+One of the new front-end frameworks that quickly outgrew Meteor's own popularity was [Vue](https://vuejs.org/), created by Evan You. And where did Evan work before creating Vue? You guessed it, MDG.
 
 Or, you might've heard of a tool named [Storybook](https://storybook.js.org/). It was created by [Arunoda Susiripala](https://twitter.com/arunoda), who was by far the most active open-source Meteor contributor (in fact a running joke was to talk about "the Arunodas", plural, because his output was too much to be the work of a single individual).
 

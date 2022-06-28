@@ -1,7 +1,6 @@
 ---
 layout: '../layouts/BaseLayout.astro'
 setup: |
-  import Logo from '../components/Logo.astro'
   import Person from '../components/Person.astro'
   import Image from '../components/Image.astro'
   import Footer from '../components/Footer.astro'
@@ -17,8 +16,6 @@ tags:
 # cover_image: https://direct_url_to_image.jpg
 # Use a ratio of 100:42 for best results.
 ---
-
-<Logo/>
 
 ##### Note: I am not currently affiliated, nor have I ever been at any time, with Meteor Development Group, Apollo, or Tiny. These are my own personal thoughts.
 
@@ -46,7 +43,7 @@ Yep, it turns out Meteor was already tackling a huge chunk of the problems of mo
 
 <StateOfGraphQL>
 
-Hey you! Yes, you! Do you use [GraphQL](https://graphql.org/)? If you do, and have 15 minutes to spare, please consider taking the first ever [State of GraphQL community survey](https://stateofgraphql.com/?source=10yearsofmeteor)! We just launched it, and we think it's going to be a huge help to figuring out which GraphQL tools and features people actually enjoy using.
+Do you use [GraphQL](https://graphql.org/)? If you do, and have 15 minutes to spare, please consider taking the first ever [State of GraphQL community survey](https://stateofgraphql.com/?source=10yearsofmeteor)! We just launched it, and we think it's going to be a huge help to figuring out which GraphQL tools and features people actually enjoy using.
 
 </StateOfGraphQL>
 
@@ -252,7 +249,7 @@ I can only hope that in the process we manage to preserve just a tiny bit of tha
 It's been 10 years, but there's yet to be another framework that burns quite as bright as Meteor did at its zenith. <MeteorLogo/>
 
 <Footer>
-  Written by [Sacha Greif](https://sachagreif.com/) in June 2022. Made with [Astro](https://astro.build/) and hosted on [Netlify](https://netlify.com/). Font stacks from [System Font Stack](https://systemfontstack.com/), set using the [Utopia](https://utopia.fyi/type/calculator) fluid type scale calculator.
+  Written by [Sacha Greif](https://sachagreif.com/) in June 2022. Made with [Astro](https://astro.build/) and hosted on [Netlify](https://netlify.com/). Font stacks from [System Font Stack](https://systemfontstack.com/), set using the [Utopia](https://utopia.fyi/type/calculator) fluid type scale calculator. [Report issues](https://github.com/SachaG/10YearsOfMeteor/issues) or [get in touch](mailto:10yearsofmeteor@sachagreif.com).
 </Footer>
 
 <Hidden>

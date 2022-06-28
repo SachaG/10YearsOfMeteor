@@ -1,10 +1,30 @@
 <section>
-  <img src="/10yearslogo.svg" alt="10 Years of Meteor"/>
+  <h1>
+    <img src="/10yearslogo.svg" alt="10 Years of Meteor" />
+  </h1>
+  <h2>
+    A look back at a JavaScript framework pioneer
+  </h2>
 </section>
 
 <style lang="scss">
+  section {
+    max-width: var(--layoutWidth);
+    margin: var(--doubleSpacing) auto var(--quadrupleSpacing) auto;
+  }
+
   img {
     display: block;
     width: 100%;
+  }
+
+  h2 {
+    font-family: var(--altFontFamily);
+    text-align: center;
+    font-size: var(--step-1);
+    // max-width: 620px;
+    margin: -10px auto 0 auto;
+    font-weight: normal;
+    // font-style: italic;
   }
 </style>

@@ -27,6 +27,8 @@ But when it first came out in 2012 (before React or Vue even existed!) it was th
 
 And what's more, even if you've never used Meteor I'm willing to bet you've used software that was influenced by it, one way or another. So read on to learn more about Meteor's early rise, why it may have burned too bright, and the lasting impact it had on modern JavaScript development.
 
+*Before we move on: this essay is a reflection of my own personal experiences with Meteor and its community, and is not meant to be an exhaustive or impartial history of the project.*
+
 ## 2012
 
 Take yourself back to 2012. It's the aftermath of the financial crisis, but Barack Obama is president of the U.S. and assuring the world that there's hope. "Call Me Maybe" is topping the charts. And tech founders are to be admired (or at the most [made fun of](<https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)>)), not yet feared for their over-sized power.
@@ -84,19 +86,21 @@ Throughout this whole process I got to know the other members of the budding Met
 
 I was fresh off writing a [somewhat successful design e-book](https://v3.sachagreif.com/ebook/) so I approached Tom with a proposal: we'd combine his deep knowledge of Meteor and my design and marketing skills to write a Meteor tutorial book and establish ourselves as the de facto way to learn the framework just as it was taking off.
 
-And guess what: _we did exactly that!_ [Discover Meteor](http://www.discovermeteor.com/) launched in 2013 and thanks in no small part to a big boost from the Meteor team quickly became one of the main resources to learn Meteor, just as we had hoped. The book quickly became a big part of both our lives, and was also a big financial success (you can read this [Gumroad case study](http://gumroad.s3.amazonaws.com/blog/DiscoverMeteorCaseStudy.pdf) to learn more.
+And guess what: _we did exactly that!_ [Discover Meteor](http://www.discovermeteor.com/) launched in 2013 and thanks in no small part to a big boost from the Meteor team quickly became one of the main resources to learn Meteor, just as we had hoped. The book quickly became a big part of both our lives, and was also a big financial success (you can read this [Gumroad case study](http://gumroad.s3.amazonaws.com/blog/DiscoverMeteorCaseStudy.pdf) to learn more).
 
 <Image name="Discover Meteor" url="http://www.discovermeteor.com">Discover Meteor is no longer maintained and you can now read it for free.</Image>
 
-We even had a [podcast](http://www.discovermeteor.com/podcast) and a [t-shirt](http://www.discovermeteor.com/tshirt), and I'm not sure how many other programming books can say the same. And did I mention _Discover Meteor_ was also translated into dozens of other languages by volunteers (we made all the translations freely available)?
+We even had a [podcast](http://www.discovermeteor.com/podcast) and a [t-shirt](http://www.discovermeteor.com/tshirt), and I'm not sure how many other programming books can say the same. And did I mention _Discover Meteor_ was also translated into dozens of other languages by volunteers (we made all the translations freely available)? 
+
+Fun fact: to this day I've still only met Tom in person once, for the *Discover Meteor* [launch](https://blog.meteor.com/discover-meteor-highlights-from-the-book-launch-cacf79aa9621)!
 
 ## Things Cool Down
 
 At first, it seemed like everything was great in Meteor land. Tom eventually [went to work for the Meteor Development Group](https://blog.meteor.com/welcoming-percolate-studio-to-meteor-development-group-160c798b3aff) (the company behind Meteor, also known as MDG) itself, the Meteor community was growing, and the book was doing great.
 
-But as the rest of the JavaScript ecosystem kept evolving (this is around the time React was gaining traction), many voices inside the Meteor community started questioning Meteor's idiosyncratic approach.
-
 <Person name="Arunoda Susiripala" url="https://twitter.com/arunoda">Arunoda created libraries to address many under-served aspects of early Meteor days including routing, server-side rendering, deployment, and performance monitoring. He went on to create [Storybook](https://storybook.js.org/), and work for [Vercel](https://vercel.com/) before creating gamedev company [GDi4K](https://www.gdi4k.com/).</Person>
+
+But as the rest of the JavaScript ecosystem kept evolving (this is around the time React was gaining traction), many voices inside the Meteor community started questioning Meteor's idiosyncratic approach.
 
 It soon became clear that the community was splitting into two camps: those who appreciated Meteor's clear value proposition of simplifying web development by providing an all-in-one environment, and those who wanted more openness towards the npm ecosystem to avoid being left behind by the rest of the webdev community.
 
@@ -196,7 +200,7 @@ In 2019, [MDG sold Meteor to Tiny](https://techcrunch.com/2019/10/02/tiny-acquir
 
 This marked a turning point for the framework: rather than try to conquer the world, Meteor would now focus on pleasing its existing community and growing at its own pace. This leaves us with a paradox: technically speaking, Meteor is the best and most stable it's ever been; yet there is little interest in learning it from people who aren't already using it.
 
-<Image name="State of JS" url="https://2020.stateofjs.com/en-US/technologies/back-end-frameworks/meteor">According to the State of JavaScript survey, the percentage of developers interested in learning Meteor has been steadily going down.</Image>
+<Image name="State of JS" url="https://2020.stateofjs.com/en-US/technologies/back-end-frameworks/meteor">According to the State of JavaScript survey, the percentage of developers interested in learning Meteor (lighter teal bars) has been steadily going down.</Image>
 
 And maybe that's fine. After all, as the creator of a very-niche-but-beloved framework myself, I'm in no position to be casting any stones.
 

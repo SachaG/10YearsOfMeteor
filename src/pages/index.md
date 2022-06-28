@@ -240,13 +240,11 @@ To say nothing of up-and-coming front-end frameworks like [Marko](https://markoj
 
 A lot has changed in 10 years: between political upheavals, a devastating pandemic, and of course worsening climate change, the naive optimism of the early 2010s seems almost quaint. And we're also more conscious of the fact that access to fast internet connections and modern devices is not always equally distributed throughout the population.
 
-In this new context, Meteor's all-JavaScript, all-real-time, all-the-time approach can seem a bit wasteful and excessive.
+In this new context, Meteor's all-real-time-all-the-time approach can seem a bit wasteful and excessive.
 
-Don't get me wrong, I enjoyed pushing the boundaries of the browser and redefining what a web app could be as much as anybody else. But as we enter [JavaScript's third age](https://www.swyx.io/js-third-age/), maybe it's time to slow down and build web apps in a more efficient and sustainable manner.
+Don't get me wrong, I enjoyed pushing the boundaries of the browser and redefining what a web app could be as much as anybody else. But as we enter [JavaScript's third age](https://www.swyx.io/js-third-age/), maybe it's time to slow down and build web apps in a more efficient and sustainable manner. All I can hope for is that we still manage to preserve just a tiny bit of that original Meteor magic and simplicity.
 
-I can only hope that in the process we manage to preserve just a tiny bit of that original Meteor magic and simplicity.
-
-It's been 10 years, but there's yet to be another framework that burns quite as bright as Meteor did at its zenith. <MeteorLogo/>
+After all it's been 10 years, but there's yet to be another web framework that burns quite as bright as Meteor did at its zenith. <MeteorLogo/>
 
 <Footer>
   Written by [Sacha Greif](https://sachagreif.com/) in June 2022. Made with [Astro](https://astro.build/) and hosted on [Netlify](https://netlify.com/). Font stacks from [System Font Stack](https://systemfontstack.com/), set using the [Utopia](https://utopia.fyi/type/calculator) fluid type scale calculator. [Report issues](https://github.com/SachaG/10YearsOfMeteor/issues) or [get in touch](mailto:10yearsofmeteor@sachagreif.com).

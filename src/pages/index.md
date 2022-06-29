@@ -8,6 +8,7 @@ setup: |
   import SevenPrinciples from '../components/SevenPrinciples.astro'
   import Hidden from '../components/Hidden.astro'
   import StateOfGraphQL from '../components/StateOfGraphQL.astro'
+  import Mentions from '../components/Mentions.astro'
 
 title: Reflecting on Meteor.js, Ten Years Later
 published: false
@@ -254,6 +255,8 @@ After all it's been 10 years, but there's yet to be another web framework that b
   Written by [Sacha Greif](https://sachagreif.com/) in June 2022. Made with [Astro](https://astro.build/) and hosted on [Netlify](https://netlify.com/). Font stacks from [System Font Stack](https://systemfontstack.com/), set using the [Utopia](https://utopia.fyi/type/calculator) fluid type scale calculator. [Report issues](https://github.com/SachaG/10YearsOfMeteor/issues) or <a href="mailto:10yearsofmeteor@sachagreif.com" rel="me">get in touch</a>.
 </Footer>
 
+<Mentions/>
+
 <Hidden>
 
 (the following content is hidden)
@@ -267,4 +270,9 @@ https://techcrunch.com/2012/04/11/meteor-launch/
 https://www.quora.com/How-did-David-Greenspan-Etherpad-creator-team-up-with-Geoff-Schmidt-Asana-employee-9-worked-on-Luna-and-team-to-form-Meteor
 https://medium.com/@sachagreif/an-open-letter-to-the-new-owners-of-meteor-353d64780b20
 
+https://webmention.io/dashboard
+https://brid.gy/twitter/sachagreif
+https://mxb.dev/blog/using-webmentions-on-static-sites/
+https://webmention.app/
+https://github.com/aaronpk/webmention.io#api
 </Hidden>

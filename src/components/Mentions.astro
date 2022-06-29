@@ -1,0 +1,19 @@
+---
+import { getMentionsData } from '../helpers/webmentions';
+
+const mentions = await getMentionsData()
+---
+
+<section>
+  <h2>Mentions</h2>
+  <pre><code>
+  {JSON.stringify(mentions, null, 2)}
+</code></pre>
+</section>
+
+<style lang="scss">
+  section {
+    display: none;
+    // display: block;
+  }
+</style>

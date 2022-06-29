@@ -251,7 +251,7 @@ Don't get me wrong, I enjoyed pushing the boundaries of the browser and redefini
 After all it's been 10 years, but there's yet to be another web framework that burns quite as bright as Meteor did at its zenith. <MeteorLogo/>
 
 <Footer>
-  Written by [Sacha Greif](https://sachagreif.com/) in June 2022. Made with [Astro](https://astro.build/) and hosted on [Netlify](https://netlify.com/). Font stacks from [System Font Stack](https://systemfontstack.com/), set using the [Utopia](https://utopia.fyi/type/calculator) fluid type scale calculator. [Report issues](https://github.com/SachaG/10YearsOfMeteor/issues) or [get in touch](mailto:10yearsofmeteor@sachagreif.com).
+  Written by [Sacha Greif](https://sachagreif.com/) in June 2022. Made with [Astro](https://astro.build/) and hosted on [Netlify](https://netlify.com/). Font stacks from [System Font Stack](https://systemfontstack.com/), set using the [Utopia](https://utopia.fyi/type/calculator) fluid type scale calculator. [Report issues](https://github.com/SachaG/10YearsOfMeteor/issues) or <a href="mailto:10yearsofmeteor@sachagreif.com" rel="me">get in touch</a>.
 </Footer>
 
 <Hidden>

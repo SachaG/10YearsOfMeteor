@@ -1,19 +1,14 @@
 ---
-import { getMentionsData } from '../helpers/webmentions';
-
-const mentions = await getMentionsData()
+import { getWebmentions } from '../helpers/webmentions';
+import Mention from './Mention.astro';
+const mentions = await getWebmentions()
 ---
 
 <section>
-  <h2>Mentions</h2>
-  <pre><code>
-  {JSON.stringify(mentions, null, 2)}
-</code></pre>
+  <h2>Webmentions</h2>
+  {mentions.map(mention =>
+  <Mention {...mention} />)}
 </section>
 
 <style lang="scss">
-  section {
-    display: none;
-    // display: block;
-  }
 </style>

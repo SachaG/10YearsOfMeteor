@@ -19,7 +19,8 @@ export const getMentionsData = async function () {
   }
 };
 
-export const getWebmentions = async function (url) {
+export const getWebmentions = async function () {
+  const url = 'https://meteor10.sachagreif.com/';
   const data = await getMentionsData();
   const webmentions = data?.children;
   const allowedTypes = ['mention-of', 'in-reply-to'];
@@ -39,6 +40,7 @@ export const getWebmentions = async function (url) {
   return webmentions
     .filter((entry) => entry['wm-target'] === url)
     .filter((entry) => allowedTypes.includes(entry['wm-property']))
+    .filter((entry) => entry?.author?.name !== 'Sacha Greif')
     .filter(hasRequiredFields)
     .map(sanitize);
 };

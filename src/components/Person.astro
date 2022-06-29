@@ -3,18 +3,29 @@ const { name, url, author } = Astro.props;
 const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
 ---
 
-<div class="person">
+<div class="wrapper">
   <h4 class="heading">{author ? <span>About the Author</span>: <span>Spotlight</span>}</h4>
-  <a class="photo" href={url}>
-    <img src={`/people/${img}.jpg`} alt={name} />
-    <h3 class="name">{name}</h3>
-  </a>
-  <div class="bio">
-    <slot />
+  <div class="person">
+    <a class="photo" href={url}>
+      <img src={`/people/${img}.jpg`} alt={name} />
+      <h3 class="name">{name}</h3>
+    </a>
+    <div class="bio">
+      <slot />
+    </div>
   </div>
 </div>
 
 <style lang="scss">
+  .wrapper {
+    @media screen and (min-width: 900px) {
+      font-size: var(--step--1);
+      float: right;
+      max-width: 280px;
+      margin: 0 0 var(--doubleSpacing) var(--doubleSpacing);
+      margin-right: -120px;
+    }
+  }
   .person {
     // border: 1px solid var(--borderColor);
     // padding: var(--spacing);
@@ -28,13 +39,6 @@ const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
     align-items: center;
     gap: var(--spacing);
 
-    @media screen and (min-width: 900px) {
-      font-size: var(--step--1);
-      float: right;
-      max-width: 280px;
-      margin: 0 0 var(--doubleSpacing) var(--doubleSpacing);
-      margin-right: -120px;
-    }
   }
 
   .heading {
@@ -43,8 +47,9 @@ const img = Astro.props.name.replaceAll(' ', '_').toLowerCase();
     font-size: var(--step--1);
     font-family: var(--altFontFamily);
     font-weight: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     text-align: center;
+    margin-bottom: var(--halfSpacing);
   }
 
   .name {

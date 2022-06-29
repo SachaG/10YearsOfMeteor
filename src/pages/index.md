@@ -8,6 +8,7 @@ setup: |
   import SevenPrinciples from '../components/SevenPrinciples.astro'
   import Hidden from '../components/Hidden.astro'
   import StateOfGraphQL from '../components/StateOfGraphQL.astro'
+  import Discussions from '../components/Discussions.astro'
   import Mentions from '../components/Mentions.astro'
 
 title: Reflecting on Meteor.js, Ten Years Later
@@ -250,6 +251,8 @@ In this new context, Meteor's all-real-time-all-the-time approach can seem a bit
 Don't get me wrong, I enjoyed pushing the boundaries of the browser and redefining what a web app could be as much as anybody else. But as we enter [JavaScript's third age](https://www.swyx.io/js-third-age/), maybe it's time to slow down and build web apps in a more efficient and sustainable manner. All I can hope for is that we still manage to preserve just a tiny bit of that original Meteor magic and simplicity.
 
 After all it's been 10 years, but there's yet to be another web framework that burns quite as bright as Meteor did at its zenith. <MeteorLogo/>
+
+<Discussions/>
 
 <Mentions/>
 

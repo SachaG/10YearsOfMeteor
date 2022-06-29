@@ -1,0 +1,16 @@
+---
+// import discussions from '../data/discussions.yml'
+const discussions = [{
+  name: 'Hacker News',
+  url: 'https://news.ycombinator.com/item?id=31915573'
+}]
+---
+
+<section>
+  <h2>Discussions</h2>
+  {discussions.map(({name, url}) =>
+  <li><a href={url}>{name}</a></li>)}
+</section>
+
+<style lang="scss">
+</style>

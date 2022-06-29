@@ -3,8 +3,8 @@ const { author, content, url } = Astro.props
 ---
 
 <div class="mention">
-  <div>
-    <a class="avatar" href={author.url}><img src={author.photo} alt={author.name} /></a>
+  <div class="avatar">
+    <a href={author.url}><img src={author.photo} alt={author.name} /></a>
   </div>
   <div class="content">
     <h3><a href={author.url}>{author.name}</a></h3>
@@ -18,14 +18,22 @@ const { author, content, url } = Astro.props
     margin-bottom: var(--quadrupleSpacing);
     display: flex;
     gap: var(--doubleSpacing);
+
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+    gap: var(--halfSpacing);
+
+    }
   }
 
   .avatar {
-    display: block;
-    border-radius: 100%;
-    border: 5px solid var(--altBackgroundColor);
-    width: 120px;
-    overflow: hidden;
+    a {
+      display: block;
+      border-radius: 100%;
+      border: 5px solid var(--altBackgroundColor);
+      width: 120px;
+      overflow: hidden;
+    }
 
     img {
       display: block;
@@ -34,14 +42,20 @@ const { author, content, url } = Astro.props
     }
   }
 
-    h3 {
-      margin: 0 0 5px 0;
-      font-family: var(--altFontFamily);
-      a{
-        text-decoration: none;
-      }
+  h3 {
+    margin: 0 0 5px 0;
+    font-family: var(--altFontFamily);
+
+    a {
+      text-decoration: none;
     }
-    .url{
-      font-size: var(--step--2);
-    }
+  }
+
+  .url {
+    font-size: var(--step--2);
+    text-overflow: ellipsis;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
 </style>

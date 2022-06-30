@@ -214,7 +214,7 @@ Still… I can't help but think about what could have been. What if Meteor _had_
 
 At this point you might be forgiven for thinking that Meteor burned too bright and fizzled out in the night sky without leaving a trace. But you'd be mistaken. Meteor did make a lasting impact, in more ways than one.
 
-<Person name="Evan You" url="https://twitter.com/youyuxi">Probably the most famous Meteor alumni, Evan You worked on Meteor's own Blaze UI framework before going on to revolutionize the front-end space with [Vue.js](https://vuejs.org/).</Person>
+<Person name="Evan You" url="https://twitter.com/youyuxi">Probably the most famous Meteor alumni, Evan You was hired to work on Meteor's own Blaze UI framework shortly after creating [Vue.js](https://vuejs.org/). He would then leave MDG and go on to work full-time on Vue.js to revolutionize the front-end space.</Person>
 
 One of the new front-end frameworks that quickly outgrew Meteor's own popularity was [Vue](https://vuejs.org/), created by Evan You. And where did Evan work before creating Vue? You guessed it, MDG.
 

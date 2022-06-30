@@ -37,6 +37,7 @@ const getMeta = () => {
 <head>
 	{getMeta().map((tag) =>
 	<meta {...tag} />)}
+	<title>{title}</title>
 	<link rel="icon" type="image/x-icon" href="/favicon.svg" />
 	<link rel="webmention" href="https://webmention.io/meteor10.sachagreif.com/webmention" />
 	<link rel="pingback" href="https://webmention.io/meteor10.sachagreif.com/xmlrpc" />
